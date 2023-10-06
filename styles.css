@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+    padding: 10px;
+    background-color: #000014;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255, 217, 0, 0.61);
+    font-family: 'Croissant One', cursive;
+}
+
+.synonyms {
+    margin: auto;
+    width: 87%;
+    margin-top: 80px;
+    background-color: #00006e;
+    padding: 50px 20px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #1b37b4;
+    color: #c8d0ff;
+    text-align: center;
+    margin-left: -10px;
+}
+
+  li {
+    text-align: center;
+    margin: 0 25% 0 25%;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 3.2px;
+    border: solid 1px #0118ad;
+    background-color: #8a8aff;
+    display: block;
+    margin: auto;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #edf0ff;
+  }
+
+  #input::placeholder {
+    color:#000014d7;
+  }
+
+  #input:focus {
+    border:none;
+    outline: none;
+  }
+  
+  button {
+    width: 91px;
+    height: 37px;
+    border-radius: 25px;
+    border: solid 0.8px #01169c;
+    background-color: inherit;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 5px;
+    color: #c8d0ff;
+  }
+  
+  button:hover {
+    background-color: #1f233e;
+    border: solid 0.8px #4a4a4a;
+    color: #0087de;
+    cursor: pointer;
+  }
+  
+  #responseField {
+    min-width: 190px;
+    min-height: 150px;
+    border-radius:5px;
+    border: solid 2px #0222ad;
+    margin: auto;
+    margin-top: 30px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    overflow: auto;
+    visibility: hidden;
+  }
+
+  #responseField:hover {
+    background-color:#02008f;
+  }
+
+
+  
+  @media only screen and (min-width: 1024px) {
+        .synonyms{
+            min-width: 800px;
+            width: 70%;
+            margin-left: auto;
+            margin-top: 5px;
+        }
+
+        h2 {
+            margin-top: 0px;
+        }
+
+        .container {
+          width: 50%;
+        }
+    }
