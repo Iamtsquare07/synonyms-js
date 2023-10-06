@@ -1,4 +1,4 @@
-// Information to reach API
+// API Credentials
 const apiUrl = "https://api.datamuse.com/words?";
 const queryParams = "rel_syn=";
 const inputField = document.querySelector("#input");
